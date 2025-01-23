@@ -1,0 +1,100 @@
+﻿row_id,order_id,order_date,order_priority,order_quantity,sales,discount,ship_mode,profit,unit_price,shipping_cost,customer_name,item_name,ship_date
+1,3,10/13/2010,Low,6,262,0,Regular Air,-213,38.94,35,Muhammed_MacIntyre,Eldon Base for stackable storage shelf. platinum,10/20/2010
+2,6,2/20/2012,Not Specified,2,7,0,Regular Air,-5,2.08,2.56,Ruben_Dartt,Kleencut® Forged Office Shears by Acme United Corporation,2/21/2012
+3,32,7/15/2011,High,26,2808,0,Regular Air,1055,107.53,5.81,Liz_Pelletier,"Tenex Contemporary Contur Chairmats for Low and Medium Pile Carpet. Computer. 39"" x 49""",7/17/2011
+4,32,7/15/2011,High,24,1761,0,Delivery Truck,-1749,70.89,89.3,Liz_Pelletier,KI Conference Tables,7/16/2011
+5,32,7/15/2011,High,23,160,0,Regular Air,-85,7.99,5.03,Liz_Pelletier,Bell Sonecor JB700 Caller ID,7/17/2011
+6,32,7/15/2011,High,15,141,0,Regular Air,-128,8.46,8.99,Liz_Pelletier,Imation 3.5 IBM Diskettes. 10/Box,7/16/2011
+7,35,10/22/2011,Not Specified,30,289,0,Regular Air,61,9.11,2.25,Julie_Creighton,Dixon Ticonderoga Core-Lock Colored Pencils,10/23/2011
+8,35,10/22/2011,Not Specified,14,1893,0,Regular Air,49,155.99,8.99,Julie_Creighton,CF 688,10/24/2011
+9,36,11/02/11,Critical,46,2485,0,Regular Air,657,65.99,4.2,Sample_Company_A,6162i,11/02/11
+10,65,3/17/2011,Critical,32,3813,0,Regular Air,1470,115.79,1.99,Tamara_Dahlen,Verbatim DVD-R. 4.7GB. Spindle. WE. Blank. Ink Jet/Thermal. 20/Spindle,3/18/2011
+11,66,1/19/2009,Low,41,108,0,Regular Air,8,2.88,0.7,Arthur_Gainer,Newell 340,1/19/2009
+12,69,06/03/09,Not Specified,42,1186,0,Regular Air,512,30.93,3.92,Jonathan_Doherty,Advantus Employee of the Month Certificate Frame. 11 x 13-1/2,06/05/09
+13,69,06/03/09,Not Specified,28,52,0,Express Air,0,1.68,0.7,Jonathan_Doherty,Newell 308,06/05/09
+14,70,12/17/2010,Low,48,90,0,Regular Air,-107,1.86,2.58,Helen_Wasserman,Super Bands. 12/Pack,12/22/2010
+15,70,12/17/2010,Low,46,7805,0,Regular Air,2057,205.99,5.99,Helen_Wasserman,3285,12/22/2010
+16,96,4/16/2009,High,37,4158,0,Regular Air,1229,125.99,8.99,Keith_Dawkins,SC7868i,4/18/2009
+17,97,1/28/2010,Medium,26,76,0,Regular Air,28,2.89,0.5,Craig_Yedwab,Avery 498,1/29/2010
+18,129,11/18/2012,Low,4,33,0,Regular Air,-23,6.48,8.19,Pauline_Chand,Xerox 217,11/27/2012
+19,130,05/07/12,High,3,462,0,Express Air,-310,150.98,13.99,Roy_Collins,Canon MP41DH Printing Calculator,05/09/12
+20,130,05/07/12,High,29,575,0,Regular Air,72,18.97,9.03,Roy_Collins,Computer Printout Paper with Letter-Trim Perforations,05/08/12
+21,130,05/07/12,High,23,236,0,Regular Air,-134,9.71,9.45,Roy_Collins,Filing/Storage Totes and Swivel Casters,05/10/12
+22,132,06/10/10,Medium,27,193,0,Regular Air,-86,7.99,5.03,Emily_Phan,Bell Sonecor JB700 Caller ID,06/11/10
+23,132,06/10/10,Medium,30,4012,0,Delivery Truck,-604,130.98,54.74,Emily_Phan,O'Sullivan Elevations Bookcase. Cherry Finish,6/13/2010
+24,134,4/30/2012,Not Specified,11,1133,0,Regular Air,-310,95.99,35,Michael_Dominguez,Safco Industrial Wire Shelving,05/02/12
+25,135,10/20/2011,Not Specified,25,126,0,Regular Air,-89,4.98,4.62,Anne_Pryor,"Imation 3.5"". DISKETTE 44766 HGHLD3.52HD/FM. 10/Pack",10/22/2011
+26,166,09/11/11,High,10,568,0,Express Air,-126,65.99,8.99,Valerie_Takahito,i270,9/13/2011
+27,193,08/07/10,Critical,14,175,0,Regular Air,-37,12.44,6.27,Justin_Hirsh,Eldon Simplefile® Box Office®,08/09/10
+28,194,04/04/12,Medium,49,329,0,Regular Air,-197,7.28,7.98,Maria_Zettner,Master Caster Door Stop. Large Neon Orange,04/06/12
+29,194,04/04/12,Medium,6,20,0,Regular Air,-13,3.14,1.92,Maria_Zettner,Serrated Blade or Curved Handle Hand Letter Openers,04/06/12
+30,195,12/27/2010,Medium,34,1316,0,Regular Air,261,36.55,13.89,Brad_Thomas,Dixon Ticonderoga Core-Lock Colored Pencils. 48-Color Set,12/29/2010
+31,197,04/06/11,High,23,311,0,Regular Air,33,12.98,3.14,Penelope_Sewall,"Acme® 8"" Straight Scissors",04/08/11
+32,224,6/17/2009,Not Specified,25,185,0,Regular Air,-34,7.38,5.21,Bart_Folk,Eldon® Expressions™ Wood Desk Accessories. Oak,6/18/2009
+33,224,6/17/2009,Not Specified,44,268,0,Regular Air,-65,5.98,5.15,Bart_Folk,Xerox 193,6/18/2009
+34,224,6/17/2009,Not Specified,33,529,0,Regular Air,-150,15.42,10.68,Bart_Folk,Decoflex Hanging Personal Folder File. Blue,6/18/2009
+35,225,5/24/2011,Critical,24,127,0,Regular Air,18,5.58,0.7,Karen_Ferguson,Newell 314,5/25/2011
+36,225,5/24/2011,Critical,1,24,0,Regular Air,-9,19.84,4.1,Karen_Ferguson,Prismacolor Color Pencil Set,5/26/2011
+37,229,12/28/2010,Critical,43,586,0,Regular Air,98,12.64,4.98,Matt_Abelman,Nu-Dell Executive Frame,12/30/2010
+38,229,12/28/2010,Critical,24,599,0,Regular Air,4,24.92,12.98,Peter_Fuller,GBC Standard Therm-A-Bind Covers,12/29/2010
+39,230,10/26/2010,Critical,47,2030,0,Regular Air,320,43.98,8.99,Erin_Creighton,Boston 1645 Deluxe Heavier-Duty Electric Pencil Sharpener,10/28/2010
+40,230,10/26/2010,Critical,11,1118,0,Regular Air,-212,125.99,8.08,Erin_Creighton,StarTAC ST7762,10/28/2010
+41,231,9/28/2009,High,2,690,0,Regular Air,-491,363.25,19.99,Sean_Braxton,Hoover WindTunnel™ Plus Canister Vacuum,9/30/2009
+42,258,12/28/2010,Critical,21,154,0,Regular Air,-91,6.48,8.74,Liz_Willingham,Xerox 1984,12/30/2010
+43,258,12/28/2010,Critical,7,201,0,Delivery Truck,-284,20.98,53.03,Liz_Willingham,Tennsco Lockers. Gray,12/29/2010
+44,258,12/28/2010,Critical,33,217,0,Regular Air,-55,6.54,5.27,Liz_Willingham,Wilson Jones® Four-Pocket Poly Binders,12/30/2010
+45,261,6/28/2010,Medium,47,5678,0,Regular Air,1681,140.99,4.2,Sonia_Sunley,7160,6/29/2010
+46,263,5/16/2009,High,25,137,0,Regular Air,-136,5.4,7.78,Paul_Lucas,3M Organizer Strips,5/17/2009
+47,290,01/05/09,Not Specified,24,189,0,Regular Air,-32,7.64,5.83,Dorris_Love,"Rediform Wirebound ""Phone Memo"" Message Book. 11 x 5-3/4",01/06/09
+48,292,01/12/12,High,43,413,0,Regular Air,176,9.9,1.39,Valerie_Takahito,#6 3/4 Gummed Flap White Envelopes,1/13/2012
+49,293,10/01/12,High,49,10123,0,Delivery Truck,458,208.16,68.02,Barry_French,"1.7 Cubic Foot Compact ""Cube"" Office Refrigerators",10/02/12
+50,293,10/01/12,High,27,245,0,Regular Air,47,8.69,2.99,Barry_French,Cardinal Slant-D® Ring Binder. Heavy Gauge Vinyl,10/03/12
+51,294,7/15/2010,Medium,35,6375,0,Regular Air,489,193.17,19.99,Sanjit_Chand,Fellowes Staxonsteel® Drawer Files,7/16/2010
+52,322,3/18/2012,Critical,20,2635,0,Regular Air,258,155.99,8.08,Giulietta_Weimer,I888 World Phone,3/20/2012
+53,322,3/18/2012,Critical,46,281,0,Regular Air,-292,6.48,10.05,Giulietta_Weimer,Xerox 1997,3/20/2012
+54,323,3/25/2009,Critical,20,108,0,Regular Air,26,5.68,1.39,Dario_Medina,Staples Standard Envelopes,3/27/2009
+55,323,3/25/2009,Critical,2,55,0,Regular Air,-31,22.84,11.54,Dario_Medina,Xerox 1964,3/27/2009
+56,324,3/19/2012,Critical,25,3873,0,Regular Air,667,179.99,13.99,Frank_Gastineau,VTech VT20-2481 2.4GHz Two-Line Phone System w/Answering Machine,3/21/2012
+57,325,10/16/2010,Low,9,884,0,Regular Air,-179,115.99,4.23,Craig_Yedwab,282,10/20/2010
+58,326,06/03/11,High,34,218,0,Regular Air,-44,5.99,4.92,Michelle_Tran,DXL™ Angle-View Binders with Locking Rings. Black,06/04/11
+59,326,06/03/11,High,17,101,0,Regular Air,-21,5.81,3.37,Michelle_Tran,Advantus Push Pins. Aluminum Head,06/04/11
+60,353,12/30/2010,Low,21,47,0,Regular Air,4,2.21,1,Dean_Percer,Quartet Alpha® White Chalk. 12/Pack,04/01/11
+61,355,6/13/2009,Low,16,1240,0,Regular Air,-173,85.99,0.99,Henry_MacAllister,Accessory4,6/18/2009
+62,358,9/19/2010,High,33,1641,0,Delivery Truck,-1348,48.58,54.11,Ricardo_Block,O'Sullivan 2-Shelf Heavy-Duty Bookcases,9/21/2010
+63,358,9/19/2010,High,33,1236,0,Regular Air,269,39.48,1.99,Ricardo_Block,80 Minute CD-R Spindle. 100/Pack - Staples,9/19/2010
+64,359,12/18/2009,Medium,30,3660,0,Delivery Truck,-500,124.49,51.94,Cari_Sayre,Bevis 36 x 72 Conference Tables,12/19/2009
+65,384,03/02/12,Low,50,7666,0,Delivery Truck,-1821,146.05,80.2,Sonia_Cooley,BPI Conference Tables,03/09/12
+66,386,1/24/2011,High,4,15,0,Regular Air,0,3.69,0.5,Tracy_Poddar,Avery 501,1/26/2011
+67,386,1/24/2011,High,4,16,0,Regular Air,-2,3.85,0.7,Tracy_Poddar,Avery Hi-Liter Pen Style Six-Color Fluorescent Set,1/26/2011
+68,388,12/15/2012,Not Specified,46,518,0,Regular Air,-95,11.7,6.96,Jennifer_Halladay,Harmony HEPA Quiet Air Purifiers,12/18/2012
+69,416,9/26/2010,Low,20,1157,0,Express Air,89,65.99,7.69,Stuart_Calhoun,5190,10/01/10
+70,417,02/05/09,Medium,39,15261,0,Delivery Truck,8735,500.98,28.14,Robert_Barroso,Hewlett-Packard cp1700 [D. PS] Series Color Inkjet Printers,02/06/09
+71,417,02/05/09,Medium,3,540,0,Regular Air,-171,178.47,19.99,Robert_Barroso,Hot File® 7-Pocket. Floor Stand,02/07/09
+72,420,10/30/2011,Not Specified,8,43,0,Regular Air,-21,4.98,4.86,Tony_Sayre,Xerox 190,10/30/2011
+73,420,10/30/2011,Not Specified,6,42,0,Regular Air,-15,5.78,5.37,Tony_Sayre,Xerox 1950,11/01/11
+74,448,8/20/2011,Medium,22,1162,0,Regular Air,-285,65.99,19.99,Brad_Thomas,iDENi80s,8/22/2011
+75,449,7/19/2011,High,45,357,0,Regular Air,-49,7.38,5.21,Candace_McMahon,Eldon® Expressions™ Wood Desk Accessories. Oak,7/21/2011
+76,450,03/04/11,Not Specified,29,1001,0,Express Air,109,34.58,8.99,Matt_Collins,Panasonic KP-350BK Electric Pencil Sharpener with Auto Stop,03/05/11
+77,450,03/04/11,Not Specified,35,544,0,Regular Air,-211,15.7,11.25,Matt_Collins,Hanging Personal Folder File,03/06/11
+78,454,12/26/2011,Low,42,234,0,Regular Air,56,6.08,1.82,Darrin_Martin,Staples Bulk Pack Metal Binder Clips,12/28/2011
+79,481,10/07/12,High,44,4509,0,Regular Air,1426,115.99,5.26,Art_Foster,636,10/09/12
+80,483,07/10/11,High,30,4966,0,Regular Air,1199,195.99,3.99,Clay_Rozendal,R380,07/12/11
+81,487,8/17/2012,Critical,19,210,0,Regular Air,-19,10.89,4.5,Valerie_Dominguez,Belkin 6 Outlet Metallic Surge Strip,8/18/2012
+82,512,5/19/2011,Low,6,1310,0,Regular Air,19,218.08,18.06,Sam_Craven,Lifetime Advantage™ Folding Chairs. 4/Carton,5/19/2011
+83,512,5/19/2011,Low,48,806,0,Express Air,-166,15.42,10.68,Sam_Craven,Decoflex Hanging Personal Folder File. Blue,5/21/2011
+84,513,4/30/2011,High,33,5438,0,Delivery Truck,-685,150.89,60.2,Arthur_Prichep,Global Leather & Oak Executive Chair. Burgundy,4/30/2011
+85,515,8/28/2010,Not Specified,19,394,0,Regular Air,31,21.78,5.94,Carlos_Soltero,Holmes HEPA Air Purifier,8/30/2010
+86,515,8/28/2010,Not Specified,21,147,0,Regular Air,4,6.64,4.95,Carlos_Soltero,G.E. Longer-Life Indoor Recessed Floodlight Bulbs,8/30/2010
+87,548,9/20/2009,Critical,41,129,0,Regular Air,36,3.08,0.99,Sung_Chung,Avery 481,9/21/2009
+88,548,9/20/2009,Critical,29,203,0,Regular Air,-51,6.48,5.9,Sung_Chung,Xerox 1976,9/21/2009
+89,548,9/20/2009,Critical,26,2753,0,Regular Air,510,125.99,4.2,Sung_Chung,V3682,9/22/2009
+90,549,07/12/12,Critical,13,70,0,Regular Air,-60,4.98,7.44,Ken_Brennan,Xerox 1922,7/13/2012
+91,549,07/12/12,Critical,5,41,0,Regular Air,-28,6.48,8.74,Ken_Brennan,Xerox 1984,7/13/2012
+92,549,07/12/12,Critical,30,1151,0,Express Air,-912,38.94,35,Ken_Brennan,Eldon Base for stackable storage shelf. platinum,07/12/12
+93,610,08/01/11,Critical,38,284,0,Express Air,-29,6.68,5.41,Joe_Elijah,Xerox 195,08/03/11
+94,611,1/26/2010,Critical,47,840,0,Regular Air,-131,17.7,9.47,Arthur_Prichep,Portfile® Personal File Boxes,1/28/2010
+95,612,10/20/2012,Medium,50,263,0,Regular Air,-166,5.28,6.26,Sheri_Gordon,Xerox 1928,10/22/2012
+96,612,10/20/2012,Medium,43,2531,0,Regular Air,882,65.99,2.5,Sheri_Gordon,6190,10/22/2012
+97,613,6/17/2011,High,12,94,0,Regular Air,-54,7.3,7.72,Carl_Jackson,Angle-D Binders with Locking Rings. Label Holders,6/17/2011
+98,613,6/17/2011,High,22,905,0,Regular Air,128,42.76,6.22,Carl_Jackson,SAFCO Mobile Desk Side File. Wire Frame,6/18/2011
+99,614,11/30/2012,High,41,628,0,Regular Air,164,14.34,5,Dave_Hallsten,Nu-Dell Leatherette Frames,12/02/12

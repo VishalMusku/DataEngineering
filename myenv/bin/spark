@@ -1,0 +1,3 @@
+#!/Users/vishalreddy/Desktop/DE_project/myenv/bin/python
+from spark import spark_admin
+spark_admin.main()
