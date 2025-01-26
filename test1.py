@@ -1,43 +1,29 @@
 from pyspark.sql import SparkSession
-from pyspark.sql.functions import expr
-import json
 
-def consume_messages_from_kafka():
-    # Create a Spark session
-    spark = SparkSession.builder \
-        .appName("KafkaSparkIntegration")\
-        .config('spark.jars.packages', "com.datastax.spark:spark-cassandra-connector_2.13:3.5.1,"
-                "org.apache.spark:spark-sql-kafka-0-10_2.12:2.4.8") \
-        .getOrCreate()
+# Initialize Spark session
+spark = SparkSession.builder \
+    .appName("PySpark Test Application") \
+    .getOrCreate()
 
-    # Set up logging for debugging
-    spark.sparkContext.setLogLevel("INFO")
+# Create a simple DataFrame
+data = [("Alice", 30), ("Bob", 45), ("Charlie", 25), ("David", 35)]
+columns = ["Name", "Age"]
+df = spark.createDataFrame(data, columns)
 
-    # Read data from Kafka topic 'users_created'
-    kafka_df = spark.readStream \
-        .format("kafka") \
-        .option("kafka.bootstrap.servers", "localhost:9092") \
-        .option("subscribe", "users_created") \
-        .option("startingOffsets", "earliest") \
-        .load()
+# Show the initial DataFrame
+print("Initial DataFrame:")
+df.show()
 
-    # The Kafka data is in binary format, so we need to decode the message value
-    messages_df = kafka_df.selectExpr("CAST(value AS STRING)")  # Cast binary data to string
-    
-    # Optional: Parse the JSON message (if messages are in JSON format)
-    parsed_df = messages_df.select(
-        expr("json_tuple(value, 'user_id', 'user_name', 'user_email') as (user_id, user_name, user_email)")
-    )
 
-    # Write the output to the console (this is for debugging)
-    query = parsed_df.writeStream \
-        .outputMode("append") \
-        .format("console") \
-        .option("truncate", "false") \
-        .start()
 
-    # Await termination of the streaming query
-    query.awaitTermination()
+# Perform a simple transformation: filter by Age > 30
+filtered_df = df.filter(df.Age > 30)
 
-if __name__ == "__main__":
-    consume_messages_from_kafka()
+# Show the result of the transformation
+print("Filtered DataFrame (Age > 30):")
+filtered_df.show()
+
+print('Thanks!')
+
+
+

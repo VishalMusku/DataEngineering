@@ -1,28 +1,36 @@
 from pyspark.sql import SparkSession
+from pyspark.sql.functions import col
 
 # Initialize Spark session
 spark = SparkSession.builder \
-    .appName("BatchProcessingCheck") \
+    .appName("SimpleFilterTest") \
+    .config("spark.network.timeout", "800s") \
+    .config("spark.executor.heartbeatInterval", "60s") \
     .getOrCreate()
 
 print("Spark Session Initialized.")
 
 # Create a simple DataFrame
-data = [(1, "Alice"), (2, "Bob"), (3, "Cathy")]
-columns = ["ID", "Name"]
+data = [(1, "Alice", 20),
+        (2, "Bob", 25),
+        (3, "Cathy", 22),
+        (4, "David", 30),
+        (5, "Eva", 28)]
+columns = ["ID", "Name", "Age"]
 
 df = spark.createDataFrame(data, columns)
 
-# Perform a transformation
-transformed_df = df.withColumnRenamed("Name", "FullName")
+# Show the original DataFrame
+print("Original DataFrame:")
+df.show()
 
-# Action: Show the results
-transformed_df.show()
+# Filter rows where Age is greater than 25
+filtered_df = df.filter(col("Age") > 25)
 
-# Optional Action: Write to a file to ensure cluster processes data
-transformed_df.write.mode("overwrite").csv("./tmp/output_directory")
-
-print("Processing Completed.")
+# Show the filtered DataFrame
+print("Filtered DataFrame (Age > 25):")
+filtered_df.show()
 
 # Stop the Spark session
 spark.stop()
+print("Spark Session Stopped.")

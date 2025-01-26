@@ -44,7 +44,7 @@ def stream_data():
     
     while True:
         
-        if time.time() > curr_time+30:
+        if time.time() > curr_time+60:
             break
         
         try:
